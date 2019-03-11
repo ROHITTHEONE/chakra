@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<title>Chakra Shakti</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/sal.js/dist/sal.css">
+</head>
+<body>
+	<header>
+		<p class="header-name">Chakra<span>Shakti</span></p>
+		<div class="header-wrapper" onclick="_show();">
+		 	<div class="outer-ham">
+		 		<div class="header-hamburger" id="ham"></div>
+		 	</div>
+		 	<nav id="nav" class="closed">
+		 		<ul id="list">
+					<li class="is-active" onclick="_add(this);"><a href="#home">Home</a></li>
+					<li onclick="_add(this);"><a href="#founder">Founder</a></li>
+					<li onclick="_add(this);"><a href="#customer">Customer</a></li>
+					<li onclick="_add(this);"><a href="#appointment">Appointment</a></li>
+					<li onclick="_add(this);"><a href="#social">Social</a></li>
+				</ul>
+		 	</nav>
+		</div>	
+	</header>
+
+	<main id="home">
+		<div>
+			chakrashakti
+		</div>
+	</main>
+
+	<section id="founder">
+		<p class="founder-head">Founder</p>
+		<figure>
+			<img src="images/ishan.jpg" alt="image of founder of chakrashakti">
+			<figcaption>
+				<p>Mr. (Dr.) Ishaan Nag</p>
+				<p>It is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India. Yoga is one of the six orthodox schools of Hindu philosophical traditions. There is a broad variety of yoga schools, practices, and goals in Hinduism, Buddhism, and Jainism.</p>
+			</figcaption>
+		</figure>
+	</section>
+
+	<section id="customer">
+		<p class="customer-head">Our Customer</p>
+		<figure>
+			<img src="images/vishesh.jpg" alt="image of customer of chakrashakti">
+			<figcaption>
+				<p>Vishesh Joya</p>
+				<p>Ratings: 5/5</p>
+				<p>Review :  I have explored so much of myself in my work with her over the past six months. So grateful to him. He creates such a safe, comfortable container and I am able to feel so authentically ME when I am working with him. He really guides you in going deep into the layers of yourself and finding places of stillness, awareness, and compassion. I would recommend IYT to anyone looking to open some space within themselves, explore mindfulness and mind/body connection, and go deep. And it opened my third eye"</p>
+			</figcaption>
+		</figure>
+	</section>
+
+	<section id="contact">
+		<div>
+			<h2 class="contact-h">Any Query?</h2>
+			<form id="contact-form">
+				<label for="names">Name<input type="text" id="names" required></label>
+				<label for="mail">Email<input type="email" id="mail"></label>
+				<label for="msg">Question<textarea></textarea></label>
+				<button id="sub">Ask</button>
+			</form>
+		</div>
+	</section>
+
+	<section id="social">
+		<div>
+			<h2 class="social-h">Follow me on</h2>
+			<div class="handles">
+				<a class="im" href="https://www.facebook.com/"><img src="images\fb.png" width="50px" height="50px"></a>
+				<a class="im" href="https://www.google.com/"><img width="50px" height="50px" src="images/google.png"></a>
+				<a class="im" href="https://www.instagram.com/"><img width="50px" height="50px" src="images/insta.png"></a>
+				<a class="im" href="https://twitter.com/"><img width="50px" height="50px" src="images/twitter.png"></a>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; All copyRights are reserved by chakrashakti site 2019. <a href="">Terms & conditions</a></p>
+	</footer>
+
+	<script src="app.js" type="text/javascript"></script>
+</body>
+</html>
